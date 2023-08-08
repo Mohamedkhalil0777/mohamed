@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image:  url(../image/bck.png);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-size: 100% 100vh;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #5816b8 ;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    margin-left: 40px;
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+.navbar ul li:hover{
+    color: gray;
+}
+.navbar img{
+    width: 70px;
+}
+.text{
+    padding: 20px;
+}
+.text h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    word-spacing: 150px;
+}
+.div1{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeb99 ;
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.div2{
+    padding: 20px;
+    background-color: #f490c0;
+    width: 30%;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.div2 h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.div2 p{
+    font-family:  'MonteCarlo';
+    font-family: 'Dancing Script', cursive ,'MonteCarlo';
+    font-weight: bold;
+    word-break: break-all;
+    text-decoration: underline;
+}
+.div3{
+    padding: 20px;
+    background-color: #B3DBF4;
+    width: 30%;
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+.div3 h4{
+    text-decoration: overline;
+    font-family: 'Dancing Script';
+    margin-bottom: 10px;
+}
+.div3 a{
+    padding: 10px 20px;
+    display: block;
+    width: 25%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+}
+.div3 a:hover{
+    background-color: gray;
+}
+.div4{
+    padding: 20px;
+    background-color: #5816b8 ;
+    width: 30%;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+.div4 div{
+    background-color: cyan;
+}
+.div4 div ul{
+    margin-left: 30px;
+}
+.back{
+    background-color: gray;
+    margin-top: 10px;
+    width: 98%;
+}
+.div5{
+    padding: 20px;
+    background-color: #ffeb99 ;
+    width: 30%;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}
+.div5 h3{
+    margin-bottom: 20px;
+}
+.div5 div{
+   width: 100%;
+   box-sizing: border-box;
+   text-align: center;
+   display: flex;
+}
+.div5 .bor{
+   padding: 20px;
+   border: solid 2px black;
+}
+.div5 div h4{
+    margin-right: 33%;
+}
+.a1{
+    background-color:#5816b8;
+}
+.a2{
+    background-color: cyan;
+}
